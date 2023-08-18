@@ -3,32 +3,32 @@ import "./slider.css";
 
 const data = [
   {
-    src: "http://www.intach.org/images/baneer10.jpg",
+    src: "./Images/Banner/baneer10.jpg",
     alt: "Image 1 for carousel",
     desc:"MOU signed by Maj. Gen. L.K. Gupta, Chairman INTACH with H.E. Dr. Sum Map, Dir. Gen. APSARA (national authority for the protection and management of Angkor &amp; the region of Seim Reap), Govt.of Comodia on 22nd June 2016 at Siem Reap, Cambodia for the period of three years "
   },
   {
-    src: "http://www.intach.org/images/baneer7.jpg",
+    src: "./Images/Banner/baneer7.jpg",
     alt: "Image 2 for carousel",
     desc:"Manimahesh Lake with Kailash Peak in the Background [Himachal Pradesh]"
   },
   {
-    src: "http://www.intach.org/images/baners3.jpg",
+    src: "./Images/Banner/baners3.jpg",
     alt: "Image 3 for carousel",
     desc:"Sampurnanand Sanskrit University, Varanasi"
   },
   {
-    src: "http://www.intach.org/images/baneer15.jpg",
+    src: "./Images/Banner/baneer15.jpg",
     alt: "Image 4 for carousel",
     desc:"Traditional weaving, Assam, ICH Documentation"
   },
   {
-    src: "http://www.intach.org/images/baners2.jpg",
+    src: "./Images/Banner/baners2.jpg",
     alt: "Image 4 for carousel",
     desc:"Pani Kotha, Diu"
   },
   {
-    src: "http://www.intach.org/images/baneer9.jpg",
+    src: "./Images/Banner/baneer9.jpg",
     alt: "Image 5 for carousel",
     desc:"Tillage of land using bullocks - a traditional farming practice [ Rani Bagh, Rajnagar, Khajuraho(M.P)]"
   },
