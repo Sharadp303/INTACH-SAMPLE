@@ -1,0 +1,72 @@
+.navbarcontainer{
+    background-color:#f5ab28;
+    border: 1px solid black;
+}
+.navbartitle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    list-style: none;
+}
+.navtitlecss{
+    font-size: 12px;
+    line-height: 1;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.navtitlecss>a:hover{
+    background-color: #3d3d3d;
+    color: #f5ab28;
+    padding: 12px 20px;
+}
+
+.navtitlecss:hover .insideNavtitle {
+   
+    font-size: 13px;
+    padding: 6px 12px;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    transition: 0.5s;
+    background: #f5ab28;
+    border-radius: 6px;
+    width:200px;
+    box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+    }
+
+.navtitlecss>a{
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.insideNavtitle{
+    list-style: none;
+    padding: 4px;
+    position: relative;
+    width: 250px;
+    text-align: center;
+    transition: 0.3s;
+    display: none;
+}
+.insidetitlecss{
+  list-style: none;
+  padding: 4px;
+  position: relative;
+  transition: 0.5s;
+  border-bottom: 1px #F39300 solid; 
+}
+.insidetitlecss>a{
+    color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 2px 10px;    
+}
+.insidetitlecss>a:hover{
+    color: #F39300;
+    background-color:#3d3d3d ;
+    transition: 0.3s;
+}

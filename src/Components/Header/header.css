@@ -1,0 +1,46 @@
+.header-container{
+    display:flex;
+    background-color:#fff2da;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;   
+    position: relative;
+}
+.headerLogo{
+    padding: 10px;
+}
+.headerTitle>p{
+    margin-top: 4px;
+    color:#4f4f4f; 
+    font-family:arial; 
+    font-size:12px
+}
+
+.headerlinks{
+    position: relative;
+    top:-23px;
+    /* background-color: red; */  
+}  
+
+.headerlinkcss{
+    font-size: 14px;
+    font-family: 'source_sans_proregular';
+    text-decoration: none;
+    color: black;
+}
+
+.inputGoogleInput{
+    background: url(https://www.google.com/cse/static/images/1x/en/branding.png)  center no-repeat rgb(255, 255, 255);
+    height:25px;
+    padding: 5px;
+    margin-right: 2px;
+}
+.inputGoogleInput:focus{
+    background: white;
+}
+.inputGoogleButton{
+    font-family: 'source_sans_proregular';
+    height:25px;
+    width:50px;
+    cursor: pointer;
+}
