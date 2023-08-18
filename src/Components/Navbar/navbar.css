@@ -1,6 +1,8 @@
 .navbarcontainer{
     background-color:#f5ab28;
+    margin:0px 20px;
     border: 1px solid black;
+    position: relative;
 }
 .navbartitle{
     display: flex;

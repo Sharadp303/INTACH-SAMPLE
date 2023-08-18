@@ -1,31 +1,30 @@
 .sidecontent-container{
-    /* background-color: #fff2da; */
+    /* background-color: #deffda; */
+    margin-top: 15px;
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items:center ;
-    width:800px;
+    width:700px;
     
 }
 .sidecontent-container>p{
     font-family: sans-serif;
     word-spacing: 2px;
-    padding: 2px;
     text-align: center;
     margin: 20px 20px;
-    padding: 15px;
-    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 14px;
     border: 1px solid black;
     animation: fadeIn 5s;
 }
 .sidecontent-container>h3{
     background: #f5aa27;
-    width: 200px;
+    width:62%;
     height: fit-content;
     text-align: center;
     text-transform: uppercase;  
-
 }
 
 @keyframes fadeIn {

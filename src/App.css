@@ -14,5 +14,7 @@ html,body{
       
     justify-content: space-around;   */
     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
    
