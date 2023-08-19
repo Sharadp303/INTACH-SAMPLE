@@ -10,8 +10,8 @@ const Header=()=>{
                 <img src="./Images/logointachline.gif" alt="" />
                 <p>Indian National Trust for Art and Cultural Heritage</p>
             </div>
-            <div className="headerlinks">
-                <a href="www.google.com" className="headerlinkcss">MoA Consultation</a>
+            <div  className="headerlinks">
+                <a  href="www.google.com" className="headerlinkcss">MoA Consultation</a>
                 <span> | </span>
                 <a href="www.google.com" className="headerlinkcss">INTACH CSR Proposals</a>
                 <span> | </span>

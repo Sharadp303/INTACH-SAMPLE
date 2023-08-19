@@ -1,4 +1,5 @@
 import './contactus.css'
+import {motion} from 'framer-motion'
 const Contactus=()=>{
     return(
         <>
@@ -22,10 +23,10 @@ const Contactus=()=>{
             <div className="follow">
                 <h3>FOLLOW US</h3>
                 <ul>
-                    <li><a href="www.google.com"><img src="./Images/Social/fbiconhm.gif" alt="follow" /></a></li>
-                    <li><a href="www.google.com"><img src="./Images/Social/tweeticonhm.gif" alt="follow" /></a></li>
-                    <li><a href="www.google.com"><img src="./Images/Social/insta-logo.png" alt="follow" /></a></li>
-                    <li><a href="www.google.com"><img src="./Images/Social/youtubeiconhm.gif" alt="follow" /></a></li>
+                    <li><a href="www.google.com"><motion.img whileHover={{scale:0.9}} src="./Images/Social/fbiconhm.gif" alt="follow" /></a></li>
+                    <li><a href="www.google.com"><motion.img whileHover={{scale:0.9}} src="./Images/Social/tweeticonhm.gif" alt="follow" /></a></li>
+                    <li><a href="www.google.com"><motion.img whileHover={{scale:0.9}} src="./Images/Social/insta-logo.png" alt="follow" /></a></li>
+                    <li><a href="www.google.com"><motion.img whileHover={{scale:0.9}} src="./Images/Social/youtubeiconhm.gif" alt="follow" /></a></li>
                 </ul>
 
             </div>
